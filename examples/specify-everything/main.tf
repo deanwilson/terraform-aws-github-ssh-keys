@@ -1,14 +1,3 @@
-module "github_key_pair" {
-  source = "hashicorp/consul/aws"
-
-  github_user = "deanwilson"
-  aws_key_pair_name = "deanwilson-from-github"
-
-  # use the third key in the aws_key_pair resource
-  key_index=2
-}
-
-
 module "github-ssh-keys" {
   source = "deanwilson/github-ssh-keys/aws"
 
