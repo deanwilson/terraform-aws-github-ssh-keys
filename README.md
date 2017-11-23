@@ -2,6 +2,8 @@
 
 Use your GitHub SSH public key as an AWS EC2 key pair.
 
+[github-ssh-keys on the Terraform Module Registry](https://registry.terraform.io/modules/deanwilson/github-ssh-keys/aws/)
+
 Before you can log in to an AWS EC2 instance you'll need to create an assign
 an SSH key pair. This module allows you to use your existing GitHub registered
 public key instead of creating an AWS specific one.
